@@ -1,0 +1,336 @@
+WindowSize->{798., 1395.75},
+WindowMargins->{{Automatic, -810}, {Automatic, -313.5}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{612, 792}},
+TaggingRules-><|
+ "CodeFormatter" -> <|"ToolbarState" -> False|>, 
+  "ShowSpecialCharactersDockedCell" -> False|>,
+Magnification:>1. Inherited,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell["Dracula.nb", "Title"], 
+      Cell[
+       CellGroupData[{
+         Cell["Notebook Options Settings", "Section"], 
+         Cell[
+         "The options defined for the style below will be used at the \
+Notebook level.", "Text"], 
+         Cell[
+          StyleData["Notebook"], 
+          CellBracketOptions -> {
+           "Color" -> RGBColor[
+             0.7411764705882353, 0.5764705882352941, 0.9764705882352941], 
+            "HoverColor" -> 
+            RGBColor[
+             0.3137254901960784, 0.9803921568627451, 0.4823529411764706], 
+            "Thickness" -> 0.01}, 
+          AutoStyleOptions -> {
+           "CommentStyle" -> {
+             FontColor -> 
+              RGBColor[
+               0.3843137254901961, 0.4470588235294118, 0.6431372549019608], 
+              ShowAutoStyles -> False, ShowSyntaxStyles -> False, 
+              AutoNumberFormatting -> False}, 
+            "ExcessArgumentStyle" -> {
+             FontColor -> 
+              RGBColor[1., 0.3333333333333333, 0.3333333333333333]}, 
+            "LocalScopeConflictStyle" -> {
+             FontColor -> 
+              RGBColor[1., 0.3333333333333333, 0.3333333333333333]}, 
+            "LocalVariableStyle" -> {
+              RGBColor[
+              0.9725490196078431, 0.9725490196078431, 0.9490196078431372]}, 
+            "MissingArgumentStyle" -> {
+             FontColor -> 
+              RGBColor[1., 0.3333333333333333, 0.3333333333333333]}, 
+            "NoKernelPresentStyle" -> {
+             FontColor -> 
+              RGBColor[
+               0.16470588235294117`, 0.6313725490196078, 0.596078431372549]}, 
+            "PatternVariableStyle" -> {
+             FontColor -> 
+              RGBColor[1., 0.7215686274509804, 0.4235294117647059], FontSlant -> 
+              "Italic"}, 
+            "StringStyle" -> {
+             FontColor -> 
+              RGBColor[
+               0.9450980392156862, 0.9803921568627451, 0.5490196078431373], 
+              ShowAutoStyles -> False, ShowSyntaxStyles -> False, 
+              AutoNumberFormatting -> False}, 
+            "SymbolContextStyles" -> {"System`" -> {
+                RGBColor[1., 0.4745098039215686, 0.7764705882352941]}, 
+              "Global`" -> {
+                RGBColor[0.4, 0.85, 0.94]}, Automatic -> {}}, 
+            "UndefinedSymbolStyle" -> {
+             FontColor -> 
+              RGBColor[
+               0.3137254901960784, 0.9803921568627451, 0.4823529411764706]}}, 
+          CodeAssistOptions -> {
+           "HeadHighlightStyle" -> {
+             Background -> 
+              RGBColor[
+               0.3843137254901961, 0.4470588235294118, 0.6431372549019608], 
+              FontVariations -> {"Underline" -> True}}, 
+            "MatchHighlightStyle" -> {
+             Background -> 
+              RGBColor[
+               0.26666666666666666`, 0.2784313725490196, 
+                0.35294117647058826`]}}, StyleMenuListing -> None, FontColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 0.9764705882352941], 
+          Background -> 
+          RGBColor[
+           0.1568627450980392, 0.16470588235294117`, 0.21176470588235294`]]}, 
+        Open]], 
+      Cell[
+       CellGroupData[{
+         Cell["Styles for Input and Output Cells", "Section"], 
+         Cell[
+          StyleData["Input"], CellFrame -> True, CellFrameColor -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`], 
+          FontFamily -> "Consolas", FontTracking -> "Extended"], 
+         Cell[
+          StyleData["Output"], FontFamily -> "Consolas", FontTracking -> 
+          "Extended"], 
+         Cell[
+          StyleData["Code"], FontFamily -> "Consolas", FontSize -> 14, 
+          FontWeight -> "Plain", FontSlant -> "Plain", FontTracking -> "Wide",
+           FontVariations -> {"StrikeThrough" -> False, "Underline" -> False},
+           FontColor -> 
+          RGBColor[
+           0.8274509803921568, 0.8274509803921568, 0.8274509803921568], 
+          Background -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`]], 
+         Cell[
+          StyleData["InitializationCell"], FontColor -> 
+          RGBColor[
+           0.8274509803921568, 0.8274509803921568, 0.8274509803921568], 
+          Background -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`]], 
+         Cell[
+          StyleData["ExternalLanguage"], CellFrame -> 3, 
+          CellFrameMargins -> {{22, 8}, {3, 4}}, CellFrameColor -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`], 
+          FontColor -> 
+          RGBColor[
+           0.8274509803921568, 0.8274509803921568, 0.8274509803921568], 
+          Background -> None], 
+         Cell[
+          StyleData[
+          "WolframAlphaShort", StyleDefinitions -> StyleData["Input"]], 
+          StyleKeyMapping -> {
+           "=" -> "WolframAlphaLong", "Backspace" -> "Input"}, EvaluationMode -> 
+          "WolframAlphaShort", 
+          CellEventActions -> {"ReturnKeyDown" :> FrontEndTokenExecute[
+              EvaluationNotebook[], "HandleShiftReturn"]}, 
+          CellFrameLabels -> {{
+             Cell[
+              BoxData[
+               StyleBox[
+               "\[FreeformPrompt]", FontColor -> 
+                RGBColor[1., 0.4745098039215686, 0.7764705882352941]]]], 
+             None}, {None, None}}, DefaultFormatType -> TextForm, 
+          ShowCodeAssist -> False, FormatType -> TextForm, FontFamily -> 
+          "Helvetica"], 
+         Cell[
+          StyleData[
+          "WolframAlphaShortInput", StyleDefinitions -> StyleData["Input"]], 
+          EvaluationMode -> "WolframAlphaShort", 
+          CellEventActions -> {"ReturnKeyDown" :> FrontEndTokenExecute[
+              EvaluationNotebook[], "HandleShiftReturn"]}, 
+          CellFrameLabels -> {{
+             Cell[
+              BoxData[
+               StyleBox[
+               "\[FreeformPrompt]", FontColor -> 
+                RGBColor[1., 0.4745098039215686, 0.7764705882352941]]], 
+              CellBaseline -> Baseline], None}, {None, None}}, ShowCodeAssist -> 
+          False, FormatType -> TextForm, FontFamily -> "Helvetica"], 
+         Cell[
+          StyleData[
+          "WolframAlphaLong", StyleDefinitions -> StyleData["Input"]], 
+          StyleKeyMapping -> {
+           "=" -> "Input", "Backspace" -> "WolframAlphaShort"}, 
+          EvaluationMode -> "WolframAlphaLong", 
+          CellEventActions -> {"ReturnKeyDown" :> FrontEndTokenExecute[
+              EvaluationNotebook[], "HandleShiftReturn"]}, 
+          CellFrameLabels -> {{
+             Cell[
+              BoxData[
+               StyleBox[
+               "\[WolframAlphaPrompt]", FontColor -> 
+                RGBColor[1., 0.4745098039215686, 0.7764705882352941]]]], 
+             None}, {None, None}}, DefaultFormatType -> TextForm, 
+          ShowCodeAssist -> False, FormatType -> TextForm, FontFamily -> 
+          "Helvetica"]}, Open]], 
+      Cell[
+       CellGroupData[{
+         Cell["Styles for Title and Section Cells", "Section"], 
+         Cell[
+          StyleData["Title"], LineColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 0.9764705882352941], 
+          FrontFaceColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 0.9764705882352941], 
+          GraphicsColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 0.9764705882352941], 
+          FontColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 
+            0.9764705882352941], $CellContext`BackFaceColor -> 
+          RGBColor[
+           0.7411764705882353, 0.5764705882352941, 0.9764705882352941]], 
+         Cell[
+          StyleData["Section"], FontColor -> 
+          RGBColor[
+           0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+         Cell[
+          StyleData["Subsection"], FontColor -> 
+          RGBColor[
+           0.3137254901960784, 0.9803921568627451, 0.4823529411764706]], 
+         Cell[
+          StyleData["Subsubsection"], FontColor -> 
+          RGBColor[
+           0.9450980392156862, 0.9803921568627451, 0.5490196078431373]]}, 
+        Open]], 
+      Cell[
+       CellGroupData[{
+         Cell["Styles for Body Text", "Section"], 
+         Cell[
+          CellGroupData[{
+            Cell["Standard", "Subsection"], 
+            Cell[
+             StyleData["Text"], FontColor -> 
+             RGBColor[
+              0.8274509803921568, 0.8274509803921568, 0.8274509803921568]]}, 
+           Open]], 
+         Cell[
+          CellGroupData[{
+            Cell["Display", "Subsection"], 
+            Cell[
+             CellGroupData[{
+               Cell["Bulleted", "Subsubsubsection"], 
+               Cell[
+                StyleData["Item"], CellDingbat -> 
+                StyleBox["\[FilledSmallCircle]", Alignment -> Baseline, 
+                  RGBColor[
+                  0.7411764705882353, 0.5764705882352941, 
+                   0.9764705882352941]], 
+                CellGroupingRules -> {"SectionGrouping", 100}, 
+                MenuSortingValue -> 10000, FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["ItemParagraph"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["Subitem"], CellDingbat -> 
+                StyleBox["\[FilledSmallCircle]", Alignment -> Baseline, 
+                  RGBColor[1., 0.4745098039215686, 0.7764705882352941]], 
+                CellGroupingRules -> {"SectionGrouping", 110}, 
+                MenuSortingValue -> 10000, FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["SubitemParagraph"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["Subsubitem"], CellDingbat -> 
+                StyleBox["\[FilledSmallCircle]", Alignment -> Baseline, 
+                  RGBColor[0.4, 0.85, 0.94]], 
+                CellGroupingRules -> {"SectionGrouping", 120}, 
+                MenuSortingValue -> 10000, FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["SubsubitemParagraph"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 
+                  0.8274509803921568]]}, Open]], 
+            Cell[
+             CellGroupData[{
+               Cell["Numbered", "Subsubsubsection"], 
+               Cell[
+                StyleData["ItemNumbered"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["SubitemNumbered"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 0.8274509803921568]], 
+               Cell[
+                StyleData["SubsubitemNumbered"], FontColor -> 
+                RGBColor[
+                 0.8274509803921568, 0.8274509803921568, 
+                  0.8274509803921568]]}, Open]]}, Open]]}, Open]], 
+      Cell[
+       CellGroupData[{
+         Cell["Misc. Styles", "Section"], 
+         Cell[
+          StyleData["Message"], FontColor -> 
+          RGBColor[1., 0.3333333333333333, 0.3333333333333333]], 
+         Cell[
+          StyleData["EchoLabel"], FontSize -> 9, FontColor -> 
+          RGBColor[
+           0.9450980392156862, 0.9803921568627451, 0.5490196078431373]], 
+         Cell[
+          StyleData["CellLabel"], FontSize -> 8, FontColor -> 
+          RGBColor[
+           0.3843137254901961, 0.4470588235294118, 0.6431372549019608]], 
+         Cell[
+          StyleData["CellExpression"], CellFrame -> True, CellFrameColor -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`], 
+          FontFamily -> "Consolas", FontTracking -> "Extended", FontColor -> 
+          RGBColor[
+           0.8274509803921568, 0.8274509803921568, 0.8274509803921568], 
+          Background -> 
+          RGBColor[
+           0.26666666666666666`, 0.2784313725490196, 0.35294117647058826`]]}, 
+        Open]]}, Open]]}, Visible -> False, FrontEndVersion -> 
+  "13.2 for Microsoft Windows (64-bit) (November 18, 2022)", StyleDefinitions -> 
+  "Default.nb"],
+ExpressionUUID->"7a76d606-9429-499d-9501-cc3095369f21"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 355, 6, 98, "Title",ExpressionUUID->"b0042f0a-449f-4829-aae6-fccecf87eefc"],
+Cell[938, 30, 460, 10, 95, "Subtitle",ExpressionUUID->"37130572-9e77-4c73-bf7d-249441cd301d"],
+Cell[1401, 42, 711, 19, 64, "Input",ExpressionUUID->"ecbe613e-0de7-48c5-93ed-ca78a3699f14"],
+Cell[CellGroupData[{
+Cell[2137, 65, 361, 6, 67, "Section",ExpressionUUID->"72767420-1d52-49c1-be47-d71306de1c6d"],
+Cell[2501, 73, 156, 3, 44, "Input",ExpressionUUID->"a0a054b1-a9f7-431e-bf8e-d2752362e1ab"],
+Cell[2660, 78, 207, 4, 44, "Input",ExpressionUUID->"994b54cf-7a7d-40cc-bfb6-ad3c5fa281c7"],
+Cell[2870, 84, 128, 3, 44, "Input",ExpressionUUID->"62ee7c86-7894-4876-92ad-f618a1c6f17c"],
+Cell[3001, 89, 99, 1, 4, "PageBreak",ExpressionUUID->"1c33f596-5f3a-4b3d-8ac9-959616c9307d",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)

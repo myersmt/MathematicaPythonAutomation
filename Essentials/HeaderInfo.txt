@@ -1,0 +1,62 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     17302,        423]
+NotebookOptionsPosition[      3128,         94]
+NotebookOutlinePosition[     16611,        413]
+CellTagsIndexPosition[     16568,        410]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Class HW#", "Title",
+ CellChangeTimes->{{3.8723565106675386`*^9, 3.8723565608257017`*^9}, {
+  3.872647554542251*^9, 3.8726475568167295`*^9}, {3.8751447278674545`*^9, 
+  3.87514472823514*^9}, {3.875240655645518*^9, 3.87524066173901*^9}, {
+  3.8765844291506057`*^9, 
+  3.8765844299036055`*^9}},ExpressionUUID->"b0042f0a-449f-4829-aae6-\
+fccecf87eefc"],
+
+Cell["\<\
+Matt Myers
+00/00/0000\
+\>", "Subtitle",
+ CellFrame->{{0, 0}, {2, 0}},
+ CellChangeTimes->{{3.8723565686816835`*^9, 3.8723565926382813`*^9}, {
+  3.8726475594009533`*^9, 3.8726475596828313`*^9}, {3.875144729763927*^9, 
+  3.875144730484805*^9}, {3.8752406897843885`*^9, 3.8752407245138392`*^9}, {
+  3.8752408291630044`*^9, 3.875240838430476*^9}, {3.875240883532344*^9, 
+  3.8752408963714805`*^9}},ExpressionUUID->"37130572-9e77-4c73-bf7d-\
+249441cd301d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"Plot", ",", "ListPlot", ",", "DiscretePlot"}], "}"}], ",", 
+    RowBox[{"PlotStyle", "->", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"Black", ",", "Thick"}], "}"}], "}"}]}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ComCon", "[", "c_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"ComplexExpand", "[", 
+    RowBox[{"Conjugate", "[", "c", "]"}], "]"}], "//", 
+   "FullSimplify"}]}]}], "Input",
+ CellChangeTimes->{{3.875240520045919*^9, 3.875240582058937*^9}, {
+  3.876584425630627*^9, 3.876584425849434*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"ecbe613e-0de7-48c5-93ed-ca78a3699f14"],
